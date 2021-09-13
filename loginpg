@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <title>LoginPage</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    body{
+      background-color: rgb(229, 240, 240)
+    }
+    .row {
+      background:white;
+      box-shadow: 12px 12px 22px grey;
+      border-top-right-radius: 30px;
+      border-bottom-right-radius: 30px;
+      border-top-left-radius: 30px;
+      border-bottom-left-radius: 30px;
+    }
+    img{
+      border-top-left-radius: 30px;
+      border-bottom-left-radius: 30px;
+    }
+    .btn1 {
+      border: none;
+      outline: none;
+      height: 30px;
+      width: 325px;
+      background-color: #61acb3;
+      color: white;
+      border-radius: 3px;
+      font-weight: bold;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <section class="Form my-4 mx-5">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-lg-5">
+          <img src="https://source.unsplash.com/random/900x1000" class="img-fluid" alt="remote image">
+        </div>
+        <div class="col-lg-7 px-5 pt-5">
+          <h2> Welcome Back!</h2>
+          <p>Please login to your account.</p>
+          <form action="backend.php">
+            <div class="form-row">
+              <div class="col-lg-7">
+                <input type="Username" placeholder="Username" class="form-control">
+              </div>
+            </div><br>
+            <div class="form-row">
+              <div class="col-lg-7">
+                <input type="Password" placeholder="Password" class="form-control">
+              </div>
+            </div><br>
+            <div>
+              <input type="checkbox" name="Remember"> Remember Me &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="a">Forgot Password</a>
+            </div>
+            <div class="form-row">
+              <div class="col-lg-7">
+                <button type="button" class="btn1 mt-4 mb-6">Login</button> 
+              </a>
+              <p><br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Terms of use. Privacy policy
+              </p>
+              </div>
+          </form>
+  </section>
+</body>
+
+</html>
